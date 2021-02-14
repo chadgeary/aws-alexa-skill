@@ -50,3 +50,6 @@ terraform deploy -var-file="aws.tfvars"
 `lambda/lambda_function.py` `language_strings.json` and `prompts.py` are the function.
 
 Remaining files are part of requirements.txt for bundling ask-sdk-core into lambda.
+
+# Alexa
+Visit the [Alexa Console](https://developer.amazon.com/alexa/console/ask) to integrate.
