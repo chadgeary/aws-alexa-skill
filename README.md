@@ -45,3 +45,6 @@ terraform init
 # Deploy
 terraform deploy -var-file="aws.tfvars"
 ```
+
+# Code Notes
+`lambda/lambda_function.py` `language_strings.json` and `prompts.py` are the function. Remaining is requirements.txt for bundling into lambda.
