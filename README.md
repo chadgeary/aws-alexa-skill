@@ -36,7 +36,7 @@ git clone https://github.com/chadgeary/aws-alexa-skill && cd ./aws-alexa-skill
 #############################
 ##        Deploy           ##
 #############################
-# Review / Modify variabels
+# Review / Modify variables
 cat aws.tfvars
 
 # Initialize terraform
@@ -47,4 +47,6 @@ terraform deploy -var-file="aws.tfvars"
 ```
 
 # Code Notes
-`lambda/lambda_function.py` `language_strings.json` and `prompts.py` are the function. Remaining is requirements.txt for bundling into lambda.
+`lambda/lambda_function.py` `language_strings.json` and `prompts.py` are the function.
+
+Remaining files are part of requirements.txt for bundling ask-sdk-core into lambda.
