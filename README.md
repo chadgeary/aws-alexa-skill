@@ -39,6 +39,9 @@ git clone https://github.com/chadgeary/aws-alexa-skill && cd ./aws-alexa-skill
 # Review / Modify variables
 cat aws.tfvars
 
+# Install lambda requirements
+pip3 install --target ./lambda ask_sdk_core
+
 # Initialize terraform
 terraform init
 
