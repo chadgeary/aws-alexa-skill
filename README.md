@@ -54,5 +54,5 @@ terraform deploy -var-file="aws.tfvars"
 
 Remaining files are part of requirements.txt for bundling ask-sdk-core into lambda.
 
-# Alexa
-Visit the [Alexa Console](https://developer.amazon.com/alexa/console/ask) to integrate.
+# Alexa Integration
+Visit the [Alexa Console](https://developer.amazon.com/alexa/console/ask) to integrate. Use the terraform output's lambda ARN as the skill's Endpoint.
